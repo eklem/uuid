@@ -45,7 +45,7 @@ header {
 #app {
   padding:1rem;
   display: grid;
-  grid-template-columns: repeat(auto-fill, 350px);
+  grid-template-columns: repeat(auto-fill, 280px);
   column-gap: 15px;
 }
 
