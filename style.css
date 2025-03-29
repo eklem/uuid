@@ -45,7 +45,7 @@ header {
 #app {
   padding:1rem;
   display: grid;
-  grid-template-columns: repeat(auto-fill, 260px);
+  grid-template-columns: repeat(auto-fill, 400px);
   column-gap: 15px;
 }
 
@@ -75,7 +75,7 @@ h2 > span {
 }
  
 textarea {
-  border: 1px solid #888;
+  border:2px solid #888;
   border-radius:4px;
   background-color:eeeeee;
   height: 90px;
@@ -83,15 +83,5 @@ textarea {
   margin:3px 3px 3px 0;
   font-family: "IBM Plex Mono", monospace;
   resize: vertical;
-}
-
-textarea.highlight {
-  border:2px solid #888;
   background-color: #ffffcc;
-}
-
-#otplength {
-  width:66px;
-  font-family: "IBM Plex Mono", monospace;
-  margin-right:3px;
 }
