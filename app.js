@@ -13,7 +13,7 @@ const appElement = document.getElementById('app')
 
 const template = html`
   <div id="otp">
-    <h2>UUID whenever you need it. Reload page to get a new</h2>
+    <h2>UUID - Reload page to get a new</h2>
     <textarea placeholder="paste or generate one-time pad" value="${() => data.uuid}"></textarea><br />
   </div>
 `
